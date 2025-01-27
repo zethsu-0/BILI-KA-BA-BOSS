@@ -3,163 +3,173 @@
     Dim total As Integer
     Dim payment As Integer
 
-    Dim sardinasLigo As Integer = 0
-    Dim sardinas555 As Integer = 0
-    Dim tunacan As Integer = 0
-    Dim argentina As Integer = 0
-    Dim straCorned As Integer = 0
-    Dim hekkaido As Integer = 0
-    Dim sanMarino As Integer = 0
-    Dim sabaSalmon As Integer = 0
-    Dim spam As Integer = 0
-    Dim delimodo As Integer = 0
-    Dim uloNgAno As Integer = 0
-    Dim chickenCut As Integer = 0
-    Dim mayaMaya As Integer = 0
-    Dim tukingan As Integer = 0
-    Dim espada As Integer = 0
-    Dim matangBaka As Integer = 0
-    Dim dalagangBukid As Integer = 0
-    Dim tuna As Integer = 0
-    Dim bangus As Integer = 0
-    Dim tilapia As Integer = 0
-    Dim chickenNeck As Integer = 0
-    Dim hito As Integer = 0
-    Dim porkCubes As Integer = 0
-    Dim porkChop As Integer = 0
-    Dim salami As Integer = 0
-    Dim ham As Integer = 0
-    Dim bacon As Integer = 0
-    Dim beefRibEye1 As Integer = 0
-    Dim beefRibEye2 As Integer = 0
-    Dim beefSirloin As Integer = 0
+
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim sardinasLigo As Integer = 0
+        Dim sardinas555 As Integer = 0
+        Dim tunacan As Integer = 0
+        Dim argentina As Integer = 0
+        Dim straCorned As Integer = 0
+        Dim hekkaido As Integer = 0
+        Dim sanMarino As Integer = 0
+        Dim sabaSalmon As Integer = 0
+        Dim spam As Integer = 0
+        Dim delimodo As Integer = 0
+
+        Dim uloNgAno As Integer = 0
+        Dim hito As Integer = 0
+        Dim mayaMaya As Integer = 0
+        Dim tukingan As Integer = 0
+        Dim espada As Integer = 0
+        Dim matangBaka As Integer = 0
+        Dim dalagangBukid As Integer = 0
+        Dim tuna As Integer = 0
+        Dim bangus As Integer = 0
+        Dim tilapia As Integer = 0
+
+        Dim chickenNeck As Integer = 0
+        Dim chickencut As Integer = 0
+        Dim porkCubes As Integer = 0
+        Dim porkChop As Integer = 0
+        Dim salami As Integer = 0
+        Dim ham As Integer = 0
+        Dim bacon As Integer = 0
+        Dim beefRibEye1 As Integer = 0
+        Dim beefRibEye2 As Integer = 0
+        Dim beefSirloin As Integer = 0
         If CheckBox1.Checked Then
-            sardinasLigo = 25
+            sardinasLigo = 25 * NumericUpDown1.Value
         End If
         If CheckBox2.Checked Then
-            sardinas555 = 23
+            sardinas555 = 23 * NumericUpDown2.Value
         End If
         If CheckBox3.Checked Then
-            tunacan = 35
+            tunacan = 35 * NumericUpDown3.Value
         End If
         If CheckBox4.Checked Then
-            argentina = 35
+            argentina = 35 * NumericUpDown4.Value
         End If
         If CheckBox5.Checked Then
-            straCorned = 30
+            straCorned = 30 * NumericUpDown5.Value
         End If
         If CheckBox6.Checked Then
-            hekkaido = 25
+            hekkaido = 25 * NumericUpDown6.Value
         End If
         If CheckBox7.Checked Then
-            sanMarino = 45
+            sanMarino = 45 * NumericUpDown7.Value
         End If
         If CheckBox8.Checked Then
-            sabaSalmon = 35
+            sabaSalmon = 35 * NumericUpDown8.Value
         End If
         If CheckBox9.Checked Then
-            spam = 120
+            spam = 120 * NumericUpDown9.Value
         End If
         If CheckBox10.Checked Then
-            delimodo = 180
+            delimodo = 180 * NumericUpDown10.Value
         End If
 
         If CheckBox21.Checked Then
-            uloNgAno = 180
+            uloNgAno = 180 * NumericUpDown21.Value
         End If
 
         If CheckBox22.Checked Then
-            chickenCut = 180
+            hito = 180 * NumericUpDown22.Value
         End If
 
         If CheckBox23.Checked Then
-            mayaMaya = 250
+            mayaMaya = 250 * NumericUpDown23.Value
         End If
 
         If CheckBox24.Checked Then
-            tukingan = 180
+            tukingan = 180 * NumericUpDown24.Value
         End If
 
         If CheckBox25.Checked Then
-            espada = 200
+            espada = 200 * NumericUpDown25.Value
         End If
 
         If CheckBox26.Checked Then
-            matangBaka = 200
+            matangBaka = 200 * NumericUpDown26.Value
         End If
 
         If CheckBox27.Checked Then
-            dalagangBukid = 220
+            dalagangBukid = 220 * NumericUpDown27.Value
         End If
 
         If CheckBox28.Checked Then
-            tuna = 520
+            tuna = 520 * NumericUpDown28.Value
         End If
 
         If CheckBox29.Checked Then
-            bangus = 180
+            bangus = 180 * NumericUpDown29.Value
         End If
 
         If CheckBox30.Checked Then
-            tilapia = 160
+            tilapia = 160 * NumericUpDown30.Value
         End If
 
         If CheckBox11.Checked Then
-            chickenNeck = 100
+            chickenNeck = 100 * NumericUpDown11.Value
         End If
 
         If CheckBox12.Checked Then
-            hito = 180
+            chickencut = 180 * NumericUpDown12.Value
         End If
 
         If CheckBox13.Checked Then
-            porkCubes = 310
+            porkCubes = 310 * NumericUpDown13.Value
         End If
 
         If CheckBox14.Checked Then
-            porkChop = 310
+            porkChop = 310 * NumericUpDown14.Value
         End If
 
         If CheckBox15.Checked Then
-            salami = 290
+            salami = 290 * NumericUpDown15.Value
         End If
 
         If CheckBox16.Checked Then
-            ham = 290
+            ham = 290 * NumericUpDown16.Value
         End If
 
         If CheckBox17.Checked Then
-            bacon = 290
+            bacon = 290 * NumericUpDown17.Value
         End If
 
         If CheckBox18.Checked Then
-            beefRibEye1 = 320
+            beefRibEye1 = 320 * NumericUpDown18.Value
         End If
 
         If CheckBox19.Checked Then
-            beefRibEye2 = 320
+            beefRibEye2 = 320 * NumericUpDown19.Value
         End If
 
         If CheckBox20.Checked Then
-            beefSirloin = 350
+            beefSirloin = 350 * NumericUpDown20.Value
         End If
 
 
         total = sardinas555 + sardinasLigo + tunacan + argentina + straCorned + hekkaido + sanMarino + sabaSalmon + spam + delimodo + uloNgAno + chickenCut + mayaMaya + tukingan + espada + matangBaka + dalagangBukid + tuna + bangus + tilapia + chickenNeck + hito + porkCubes + porkChop + salami + ham + bacon + beefRibEye1 + beefRibEye2 + beefSirloin
 
-        TextBox1.Text = total
+        Label9.Text = total
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        If TextBox2.Text >= total Then
-            payment = TextBox2.Text - total
-            TextBox3.Text = payment
-            Label5.Text = " "
+
+        If Not Integer.TryParse(TextBox2.Text, Nothing) Then
+            Label5.Text = "Please Enter an Amount"
         Else
-            Label5.Text = "Kulang Boss"
+            If TextBox2.Text >= total Then
+                payment = TextBox2.Text - total
+                TextBox3.Text = payment
+                Label5.Text = " "
+            Else
+                Label5.Text = "Kulang Boss"
+                TextBox3.Text = " "
+            End If
         End If
+
 
 
     End Sub
@@ -169,6 +179,7 @@
             e.Handled = True
         End If
     End Sub
+
 
 End Class
 
