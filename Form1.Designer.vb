@@ -824,9 +824,9 @@ Partial Class Form1
         Me.CheckBox24.Location = New System.Drawing.Point(95, 282)
         Me.CheckBox24.Margin = New System.Windows.Forms.Padding(2)
         Me.CheckBox24.Name = "CheckBox24"
-        Me.CheckBox24.Size = New System.Drawing.Size(162, 25)
+        Me.CheckBox24.Size = New System.Drawing.Size(161, 25)
         Me.CheckBox24.TabIndex = 6
-        Me.CheckBox24.Text = "TUKINGAN - 180"
+        Me.CheckBox24.Text = "TULINGAN - 180"
         Me.CheckBox24.UseVisualStyleBackColor = True
         '
         'CheckBox25
